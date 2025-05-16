@@ -30,6 +30,6 @@ $$\mu^{(r)} = \begin{bmatrix} \mu^{(r)}_1 \\
             
 $$W^{(r)} = \begin{bmatrix} \mu_1^{(r)} (1 - \mu_1^{(r)}) & 0 & 0 & \cdots & 0 \\
                             0 & \mu_2^{(r)} (1 - \mu_2^{(r)}) & 0 & \cdots & 0 \\ 
-                            \vdots & \vdots & \vdots & \udots & vdots \\
+                            \vdots & \vdots & \vdots & \ddots & \vdots \\
                             0 & 0 & 0 & \cdots & \mu_n^{(r)} (1 - \mu_n^{(r)})
                             \end{bmatrix}$$
