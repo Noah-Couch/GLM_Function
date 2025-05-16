@@ -1,4 +1,4 @@
-# Pulling Variables from the formula -------------------------------------------
+###################### Pulling Variables from the formula ######################
 
 ### Getting the response variable
 get.Y <- function(formula, data) {
