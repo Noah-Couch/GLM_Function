@@ -23,4 +23,6 @@ The score and information for a generalized linear model are functions of the pa
   
 #### For Logistic Regression
 
-$$\mu^{(r)} = \begin{bmatrix} \mu^{(r)}_1 \\ \vdots \\ \mu^{(r)}_n \end{bmatrix}$$
+$$\mu^{(r)} = \begin{bmatrix} \mu^{(r)}_1 \\ 
+                              \vdots \\ 
+                              \mu^{(r)}_n \end{bmatrix}$$
