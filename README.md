@@ -25,4 +25,11 @@ The score and information for a generalized linear model are functions of the pa
 
 $$\mu^{(r)} = \begin{bmatrix} \mu^{(r)}_1 \\ 
                               \vdots \\ 
-                              \mu^{(r)}_n \end{bmatrix}$$
+                              \mu^{(r)}_n \end{bmatrix}
+            = \frac{\exp\{X \beta^{(r)}\}}{1 + \exp\{X \beta^{(r)}\} }$$
+            
+$$W^{(r)} = \begin{bmatrix} \mu_1^{(r)} (1 - \mu_1^{(r)}) & 0 & 0 & \cdots & 0 \\
+                            0 & \mu_2^{(r)} (1 - \mu_2^{(r)}) & 0 & \cdots & 0 \\ 
+                            \vdots & \vdots & \vdots & \ddots & 0 \\
+                            0 & 0 & 0 & \cdots & \mu_n^{(r)} (1 - \mu_n^{(r)})
+                            \end{bmatrix}$$
